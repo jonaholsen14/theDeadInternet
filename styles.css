@@ -48,6 +48,7 @@ body {
 }
 
 .sidebar ul li a {
+    justify-self: center;
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.2em;
@@ -143,4 +144,27 @@ h4 {
     width: 20px;
     height: 20px;
     accent-color: var(--accent-color); /* Customize toggle color */
+}
+
+.profile {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile article { /* This will be a card containing the info */
+    padding: 30px; 
+    background-color: var(--post-bg);
+    border-radius: 8px;
+}
+
+.profile_main {
+    grid-column:  1 / 3;
+    font-size: larger;
+    display: inline;
+}
+.profile_main h3 {
+    align-self: center;
 }

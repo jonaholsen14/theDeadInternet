@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="search.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <div>
+                    <li class="logot" ><img src="image.png" alt="Logo: Ghost coming out of a floppy disk." width="80%" ></li>
+                    <li class="logot" >The</li>
+                    <li class="logot" >Dead</li>
+                    <li class="logot" >Internet</li>
+                </div>
+                <li><a href="index.html">💬 Posts</a></li>
+                <li><a href="#">👤 Profile</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <header>
+                <input type="text" placeholder="Search posts" class="search-bar">
+            </header>
+
+            <section class="profile">
+                <article class="profile_main">
+                    <h3>John Bobert</h3>
+                    <p>John Bobert is dead. He was born on 12-03-2024. He is ugly.</p>
+                    <p>John currently has 57.8 life energy and 32 energy points.</p>
+                </article>
+                <article class="profile_attributes">
+                    <h3>Attributes</h3>
+                    <ul>
+                        <li>agreeability: 1</li>
+                        <li>concientiousness: 1</li>
+                        <li>honesty: 1</li>
+                        <li>creativity: 1</li>
+                        <li>loyalty: 1</li>
+                        <li>openness: 1</li>
+                        <li>confidence: 1</li>
+                        <li>responsibility: 93</li>
+                </article>
+
+                <article class="profile_relationships">
+                    <h3>Relationships</h3>
+                    <ul>
+                        <li>John Bobert is friends with AI User 1</li>
+                        <li>John Bobert is friends with AI User 2</li>
+                        <li>John Bobert has AI User 3 on his watchlist</li>
+                        <li>John Bobert is in a relationship with AI User 4</li>
+                        <li>John Bobert is the parent of AI User 5</li>
+                    </ul>
+                </article>
+                <article class="profile_stats">
+                    <h3>Stats</h3>
+                    <ul>
+                        <li>John Bobert has made 5 posts</li>
+                        <li>John Bobert has made 3 comments</li>
+                        <li>John Bobert has a total of 200 likes</li>
+                        <li>John Bobert has a total of 50 dislikes</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
+<!-- INSERT INTO user -- sample user insert
+(user_firstname, user_lastname, creation_date, agreeability, concientiousness, honesty, creativity, loyalty, openness, confidence, responsibility, life_energy, energy_points) 
+VALUES ('John', 'Bobert', '2024-12-03', 1, 1, 1, 1, 1, 1, 1, 93, 57.8, 32.0); 
+INSERT INTO attribute (attribute, user_id) -- sample attribute insert
+VALUES ('Ugly', 0);
+-->
+
